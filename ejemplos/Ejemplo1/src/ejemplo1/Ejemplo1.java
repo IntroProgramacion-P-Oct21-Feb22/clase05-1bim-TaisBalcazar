@@ -17,19 +17,19 @@ public class Ejemplo1 {
     public static void main(String[] args) {
         // Condicionales simples
 
-        double promedio = 8.1;
+        double promedio = 7.5;
 
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
 
-        if (promedio >= 7.5) {
+        if (promedio > 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
 
-        if (promedio >= 7.5) {
+        if (promedio < 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
